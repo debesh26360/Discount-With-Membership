@@ -6,7 +6,7 @@ if a in ['y','yes','Yes','YES']:
         cost=int(input('Please enter a item cost:'))
         total+=cost
     if total>=1000:
-        print('Discount of 10%')
+        print('Discount of 15%')
         total*=0.9
         print('final total is',total)
     elif total<1000:
@@ -19,7 +19,7 @@ elif a in ['n','no','No','NO']:
         cost=int(input('Please enter a item cost:'))
         total+=cost
     if total>=1000:
-        print('Discount of 5%')
+        print('Discount of 10%')
         total*=0.9
         print('final total is',total)
     elif total<1000:
